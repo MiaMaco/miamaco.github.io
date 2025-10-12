@@ -3,3 +3,8 @@ description: Cybersecurity Projects | Network Security | Pentesting | CTF Writeu
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
