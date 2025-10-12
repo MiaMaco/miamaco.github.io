@@ -1,6 +1,27 @@
 ---
 layout: default
+title: "Cybersecurity Projects"
 ---
+
+# 🛡️ Cybersecurity Projects Portfolio
+
+Welcome! This is a collection of technical security projects exploring vulnerabilities, exploitation techniques, and defensive research.
+
+---
+
+## 🔍 Projects
+
+<ul>
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted_projects %}
+    <li>
+      <a href="{{ project.url | relative_url }}"><strong>{{ project.title }}</strong></a><br>
+      {% if project.summary %}
+        <small>{{ project.summary }}</small>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
