@@ -9,13 +9,13 @@ layout: default
 
 This project analyses a packet capture to determine whether a network attack occurred. Using Wireshark, I identified traffic patterns consistent with an **ICMP flood (DoS)** — a high‑rate stream of ICMP echo requests directed at one targeted server.
 
-> ⚠️ **Disclaimer:** Packet captures and analysis notes are provided for educational and defensive purposes. Do not use this material to perform unauthorized testing or attacks.
+> ⚠️ **Disclaimer:** Packet captures and analysis notes are provided for educational and defensive purposes. Do not use this material to perform unauthorised testing or attacks.
 
 ---
 
 ## Tools & Data
 
-- **Primary tools:** Wireshark (GUI), `tshark` (CLI), `tcpdump`  
+- **Primary tools:** Wireshark (GUI)  
 - **Data:** Sanitized packet capture (`capture.pcap`) used for analysis  
 - **Environment:** Local analysis workstation (isolated)
 
@@ -59,7 +59,7 @@ This project analyses a packet capture to determine whether a network attack occ
 
 ## Lessons learned
 
-- - Gained a deeper understanding of the Internet Control Message Protocol (ICMP), its role in network diagnostics (e.g. ping, traceroute), how it operates at Layer 3, and how it can be misused in denial-of-service scenarios.
+- Gained a deeper understanding of the Internet Control Message Protocol (ICMP), its role in network diagnostics (e.g. ping, traceroute), how it operates at Layer 3, and how it can be misused in denial-of-service scenarios.
 - Volume and pattern analysis are often sufficient to identify ICMP flooding events. 
 - Preparing sanitised artifacts and concise findings helps communicate incidents to network operators and stakeholders.
 
@@ -67,4 +67,4 @@ This project analyses a packet capture to determine whether a network attack occ
 
 ## Repository
 
-[🔗 GitHub Repo (PCAP & analysis files)](https://github.com/miamaco/network-forensics-icmp-flood)
+[🔗 GitHub Repo](https://github.com/miamaco/network-forensics-icmp-flood)
