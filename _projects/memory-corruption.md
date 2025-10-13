@@ -26,7 +26,7 @@ Stack protections (ASLR, stack canaries, etc.) were disabled to allow low-level 
 ## What I Did
 
 - Identified vulnerable code patterns (unsafe buffer handling, unvalidated format strings)
-- Analyzed memory layout using `gdb` and crafted stack diagrams
+- Analysed memory layout using `gdb` and crafted stack diagrams
 - Built controlled proof-of-concept exploits
 - Documented key exploitation principles and mitigations
 

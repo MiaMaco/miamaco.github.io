@@ -27,10 +27,10 @@ Welcome! This is a collection of technical security projects exploring vulnerabi
   <p>© {{ site.time | date: "%Y" }} — Hands‑on cybersecurity projects.</p>
 
   <p>
-    <a href="https://github.com/miamaco/yourrepo" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://github.com/miamaco" target="_blank" rel="noopener">GitHub</a>
     · <a href="/projects/">Projects</a>
     · <a href="/about/">About</a>
-    · <a href="mailto:you@example.com">Contact</a>
+    · <a href="">Contact</a>
   </p>
 
   <p class="small">
