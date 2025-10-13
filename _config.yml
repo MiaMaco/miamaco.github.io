@@ -5,6 +5,13 @@ google_analytics:
 theme: jekyll-theme-minimal
 include:
   - css/styles.css
+  defaults:
+  -
+    scope:
+      path: ""
+    values:
+      head: head-custom
+
 
 
 collections:
