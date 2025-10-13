@@ -1,7 +1,6 @@
 ---
 title: "Memory Corruption: Buffer Overflow & Format String Attacks"
-date: 2025-10-12
-summary: "Explored buffer overflow and format string vulnerabilities in 32-bit Linux binaries using controlled POCs."
+summary: "Explored buffer overflow and format string vulnerabilities in 32-bit Linux binaries using controlled PoCs."
 tags: [memory-corruption, x86, buffer-overflow, format-string, gdb]
 layout: default
 ---
@@ -19,8 +18,8 @@ Stack protections (ASLR, stack canaries, etc.) were disabled to allow low-level 
 ## Tools & Setup
 
 - Target: 32-bit Linux binaries
-- Compiler: `gcc -m32 -fno-stack-protector -z execstack`
-- Tools: `gdb`, `pwndbg`, `objdump`, `ltrace`, `strace`, `readelf`
+- Compiler: `gcc -m32 -fno-stack-protector -z execstack -no-pie -o`
+- Tools: `gdb`
 
 ---
 
@@ -35,13 +34,14 @@ Stack protections (ASLR, stack canaries, etc.) were disabled to allow low-level 
 
 ## Lessons Learned
 
-- Buffer overflows and format string vulnerabilities can be exploited when protections are disabled
-- Modern systems use multiple defenses (stack canaries, ASLR, NX) to prevent real-world exploitation
-- Secure coding practices and validation are critical for memory safety
+- How and why buffer overflow and string vulnerabilities can be exploited.
+- Buffer overflows and format string vulnerabilities can be exploited when protections are disabled.
+- Modern systems use stack protections to prevent real-world exploitation, althought they can also be bypassed in some cases.
+- Secure coding practices and validation are critical for memory safety.
 
 ---
 
 ## Repository
 
-[🔗 GitHub Repo (Sanitized Source)](https://github.com/yourusername/memory-corruption-demo)
+[🔗 GitHub Repo (Sanitized Source)](https://github.com/miamaco/memory-corruption-demo)
 
