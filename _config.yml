@@ -4,7 +4,7 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 include:
-  - css/custom.css
+  - css/styles.css
 
 
 collections:
