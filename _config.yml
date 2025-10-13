@@ -3,6 +3,9 @@ description: Cybersecurity Projects | Binary Exploitation | Network Forensics
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+include:
+  - css/custom.css
+
 
 collections:
   projects:
