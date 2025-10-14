@@ -23,7 +23,7 @@ Welcome! This is a collection of technical security projects exploring vulnerabi
   {% endfor %}
 </ul>
 
-<footer class="site-footer">
+---
   <p>© {{ site.time | date: "%Y" }} — Hands‑on cybersecurity projects.</p>
 
   <p>
@@ -40,4 +40,4 @@ Welcome! This is a collection of technical security projects exploring vulnerabi
   <p class="disclaimer small">
     <strong>Disclaimer:</strong> Disclaimer: The code and analyses on this site are provided for educational and defensive research only. Do not use these materials to perform unauthorized testing or attacks. The author is not responsible for misuse.
   </p>
-</footer>
+---

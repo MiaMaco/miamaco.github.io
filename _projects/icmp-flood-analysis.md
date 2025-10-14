@@ -16,7 +16,7 @@ This project analyses a packet capture to determine whether a network attack occ
 ## Tools & Data
 
 - **Primary tools:** Wireshark (GUI)  
-- **Data:** Sanitized packet capture (`capture.pcap`) used for analysis  
+- **Data:** Sanitised packet capture (`capture.pcap`) used for analysis  
 - **Environment:** Local analysis workstation (isolated)
 
 ---
